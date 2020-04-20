@@ -55,7 +55,7 @@ class User {
         $this->userId = $userId;
         $this->username = $userName;
         $this->nickname = $nickname;
-        $this->mostUsed =  $listGun[rand(0,$nGun-1)];
+        $this->mostUsed =  $listGun[rand(0,$nGun-1)];// random at the moment
         $this->mostKilled = "Nobita";  // random at the moment
         $this->nKill = $nKill;
         $this->nDeath = $nDie;
