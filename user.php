@@ -83,7 +83,7 @@ class User {
         $this->lvl = $lvl;
     }
 
-    
+
     public function getTitle() {
         return $this->title;
     }
@@ -112,7 +112,7 @@ class User {
 
 <?php
 #process database
-// also as init for those weeks has no log
+// also as init for those weeks have no log
 function readListUser(&$listUserName, $fileName = "listUser.txt") {
     //$listUser = array();
     $mapping = array();
