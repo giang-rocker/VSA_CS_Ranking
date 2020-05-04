@@ -1,0 +1,165 @@
+L 04/23/2020 - 22:23:13: Log file started (file "logs\L0423000.log") (game "cstrike") (version "48/1.1.2.6/4554")
+L 04/23/2020 - 22:23:16: World triggered "Round_Start"
+L 04/23/2020 - 22:23:31: "Mr.Donkey<4><STEAM_ID_LAN><>" connected, address "140.113.167.22:27005"
+L 04/23/2020 - 22:23:34: "Mr.Donkey<4><STEAM_ID_LAN><>" entered the game
+L 04/23/2020 - 22:23:38: "Mr.Donkey<4><STEAM_ID_LAN><>" joined team "CT"
+L 04/23/2020 - 22:24:13: "Rama_MSE<1><STEAM_ID_LAN><CT>" killed "Ming<3><STEAM_ID_LAN><TERRORIST>" with "usp"
+L 04/23/2020 - 22:24:13: Team "CT" triggered "CTs_Win" (CT "1") (T "0")
+L 04/23/2020 - 22:24:13: World triggered "Round_End"
+L 04/23/2020 - 22:24:18: "ThongCaTheGioi<5><STEAM_ID_LAN><>" connected, address "140.113.167.61:4330"
+L 04/23/2020 - 22:24:20: "ThongCaTheGioi<5><STEAM_ID_LAN><>" entered the game
+L 04/23/2020 - 22:24:22: "ThongCaTheGioi<5><STEAM_ID_LAN><>" joined team "CT"
+L 04/23/2020 - 22:24:25: World triggered "Round_Start"
+L 04/23/2020 - 22:24:49: "Ming<3><STEAM_ID_LAN><TERRORIST>" killed "Mr.Donkey<4><STEAM_ID_LAN><CT>" with "usp"
+L 04/23/2020 - 22:25:04: "Ming<3><STEAM_ID_LAN><TERRORIST>" killed "ThongCaTheGioi<5><STEAM_ID_LAN><CT>" with "knife"
+L 04/23/2020 - 22:25:17: "Mr.Donkey<4><STEAM_ID_LAN><CT>" disconnected
+L 04/23/2020 - 22:25:22: "Rama_MSE<1><STEAM_ID_LAN><CT>" killed "Ming<3><STEAM_ID_LAN><TERRORIST>" with "deagle"
+L 04/23/2020 - 22:25:22: Team "CT" triggered "CTs_Win" (CT "2") (T "0")
+L 04/23/2020 - 22:25:22: World triggered "Round_End"
+L 04/23/2020 - 22:25:34: World triggered "Round_Start"
+L 04/23/2020 - 22:25:51: "Rama_MSE<1><STEAM_ID_LAN><CT>" killed "Ming<3><STEAM_ID_LAN><TERRORIST>" with "deagle"
+L 04/23/2020 - 22:25:51: Team "CT" triggered "CTs_Win" (CT "3") (T "0")
+L 04/23/2020 - 22:25:51: World triggered "Round_End"
+L 04/23/2020 - 22:25:51: "Mr.Donkey<6><STEAM_ID_LAN><>" connected, address "140.113.167.22:27005"
+L 04/23/2020 - 22:25:54: "Mr.Donkey<6><STEAM_ID_LAN><>" entered the game
+L 04/23/2020 - 22:26:03: World triggered "Round_Start"
+L 04/23/2020 - 22:26:05: "Mr.Donkey<6><STEAM_ID_LAN><>" joined team "TERRORIST"
+L 04/23/2020 - 22:26:12: "Ming<3><STEAM_ID_LAN><TERRORIST>" killed "ThongCaTheGioi<5><STEAM_ID_LAN><CT>" with "deagle"
+L 04/23/2020 - 22:26:16: "Rama_MSE<1><STEAM_ID_LAN><CT>" killed "Ming<3><STEAM_ID_LAN><TERRORIST>" with "deagle"
+L 04/23/2020 - 22:26:21: "Rama_MSE<1><STEAM_ID_LAN><CT>" killed "Mr.Donkey<6><STEAM_ID_LAN><TERRORIST>" with "deagle"
+L 04/23/2020 - 22:26:21: Team "CT" triggered "CTs_Win" (CT "4") (T "0")
+L 04/23/2020 - 22:26:21: World triggered "Round_End"
+L 04/23/2020 - 22:26:33: World triggered "Round_Start"
+L 04/23/2020 - 22:26:54: "Ming<3><STEAM_ID_LAN><TERRORIST>" killed "Rama_MSE<1><STEAM_ID_LAN><CT>" with "deagle"
+L 04/23/2020 - 22:27:05: "ThongCaTheGioi<5><STEAM_ID_LAN><CT>" killed "Mr.Donkey<6><STEAM_ID_LAN><TERRORIST>" with "deagle"
+L 04/23/2020 - 22:27:26: "Ming<3><STEAM_ID_LAN><TERRORIST>" killed "ThongCaTheGioi<5><STEAM_ID_LAN><CT>" with "deagle"
+L 04/23/2020 - 22:27:26: Team "TERRORIST" triggered "Terrorists_Win" (CT "4") (T "1")
+L 04/23/2020 - 22:27:26: World triggered "Round_End"
+L 04/23/2020 - 22:27:39: World triggered "Round_Start"
+L 04/23/2020 - 22:27:53: "Rama_MSE<1><STEAM_ID_LAN><CT>" killed "Mr.Donkey<6><STEAM_ID_LAN><TERRORIST>" with "deagle"
+L 04/23/2020 - 22:28:02: "Ming<3><STEAM_ID_LAN><TERRORIST>" killed "ThongCaTheGioi<5><STEAM_ID_LAN><CT>" with "deagle"
+L 04/23/2020 - 22:28:15: "Rama_MSE<1><STEAM_ID_LAN><CT>" killed "Ming<3><STEAM_ID_LAN><TERRORIST>" with "deagle"
+L 04/23/2020 - 22:28:15: Team "CT" triggered "CTs_Win" (CT "5") (T "1")
+L 04/23/2020 - 22:28:15: World triggered "Round_End"
+L 04/23/2020 - 22:28:27: World triggered "Round_Start"
+L 04/23/2020 - 22:28:58: "Ming<3><STEAM_ID_LAN><TERRORIST>" killed "Rama_MSE<1><STEAM_ID_LAN><CT>" with "deagle"
+L 04/23/2020 - 22:28:59: "ThongCaTheGioi<5><STEAM_ID_LAN><CT>" killed "Ming<3><STEAM_ID_LAN><TERRORIST>" with "deagle"
+L 04/23/2020 - 22:29:06: "ThongCaTheGioi<5><STEAM_ID_LAN><CT>" killed "Mr.Donkey<6><STEAM_ID_LAN><TERRORIST>" with "deagle"
+L 04/23/2020 - 22:29:06: Team "CT" triggered "CTs_Win" (CT "6") (T "1")
+L 04/23/2020 - 22:29:06: World triggered "Round_End"
+L 04/23/2020 - 22:29:18: World triggered "Round_Start"
+L 04/23/2020 - 22:29:30: "Mr.Donkey<6><STEAM_ID_LAN><TERRORIST>" killed "ThongCaTheGioi<5><STEAM_ID_LAN><CT>" with "deagle"
+L 04/23/2020 - 22:29:34: "Rama_MSE<1><STEAM_ID_LAN><CT>" killed "Mr.Donkey<6><STEAM_ID_LAN><TERRORIST>" with "deagle"
+L 04/23/2020 - 22:29:42: "Ming<3><STEAM_ID_LAN><TERRORIST>" killed "Rama_MSE<1><STEAM_ID_LAN><CT>" with "deagle"
+L 04/23/2020 - 22:29:42: Team "TERRORIST" triggered "Terrorists_Win" (CT "6") (T "2")
+L 04/23/2020 - 22:29:42: World triggered "Round_End"
+L 04/23/2020 - 22:29:54: World triggered "Round_Start"
+L 04/23/2020 - 22:30:24: "Ming<3><STEAM_ID_LAN><TERRORIST>" killed "Rama_MSE<1><STEAM_ID_LAN><CT>" with "deagle"
+L 04/23/2020 - 22:30:26: "ThongCaTheGioi<5><STEAM_ID_LAN><CT>" killed "Mr.Donkey<6><STEAM_ID_LAN><TERRORIST>" with "deagle"
+L 04/23/2020 - 22:30:28: "Ming<3><STEAM_ID_LAN><TERRORIST>" killed "ThongCaTheGioi<5><STEAM_ID_LAN><CT>" with "deagle"
+L 04/23/2020 - 22:30:28: Team "TERRORIST" triggered "Terrorists_Win" (CT "6") (T "3")
+L 04/23/2020 - 22:30:28: World triggered "Round_End"
+L 04/23/2020 - 22:30:40: World triggered "Round_Start"
+L 04/23/2020 - 22:30:56: "ThongCaTheGioi<5><STEAM_0:0:787808286><CT>" killed "Ming<3><STEAM_0:0:787808286><TERRORIST>" with "deagle"
+L 04/23/2020 - 22:31:08: "(^_^)TA(~_~)<7><STEAM_0:0:2029958108><>" connected, address "111.251.196.215:48622"
+L 04/23/2020 - 22:31:11: "Mr.Donkey<6><STEAM_0:0:1835451154><TERRORIST>" killed "ThongCaTheGioi<5><STEAM_0:0:787808286><CT>" with "deagle"
+L 04/23/2020 - 22:31:15: "(^_^)TA(~_~)<7><STEAM_0:0:2029958108><>" entered the game
+L 04/23/2020 - 22:31:17: "Rama_MSE<1><STEAM_0:0:1477578223><CT>" killed "Mr.Donkey<6><STEAM_0:0:1835451154><TERRORIST>" with "grenade"
+L 04/23/2020 - 22:31:17: Team "CT" triggered "CTs_Win" (CT "7") (T "3")
+L 04/23/2020 - 22:31:17: World triggered "Round_End"
+L 04/23/2020 - 22:31:19: "(^_^)TA(~_~)<7><STEAM_0:0:2029958108><>" joined team "SPECTATOR"
+L 04/23/2020 - 22:31:27: "(^_^)TA(~_~)<7><STEAM_0:0:2029958108><SPECTATOR>" joined team "CT"
+L 04/23/2020 - 22:31:29: World triggered "Round_Start"
+L 04/23/2020 - 22:31:44: "Ming<3><STEAM_0:0:787808286><TERRORIST>" killed "ThongCaTheGioi<5><STEAM_0:0:787808286><CT>" with "deagle"
+L 04/23/2020 - 22:31:55: "Ming<3><STEAM_0:0:787808286><TERRORIST>" killed "Rama_MSE<1><STEAM_0:0:1477578223><CT>" with "deagle"
+L 04/23/2020 - 22:31:55: Team "TERRORIST" triggered "Terrorists_Win" (CT "7") (T "4")
+L 04/23/2020 - 22:31:55: World triggered "Round_End"
+L 04/23/2020 - 22:32:05: "ThongCaTheGioi<5><STEAM_0:0:787808286><CT>" committed suicide with "world"
+L 04/23/2020 - 22:32:05: "ThongCaTheGioi<5><STEAM_0:0:787808286><CT>" joined team "SPECTATOR"
+L 04/23/2020 - 22:32:07: World triggered "Round_Start"
+L 04/23/2020 - 22:32:21: "(^_^)TA(~_~)<7><STEAM_0:0:2029958108><CT>" committed suicide with "grenade"
+L 04/23/2020 - 22:32:22: "Rama_MSE<1><STEAM_0:0:1477578223><CT>" killed "Mr.Donkey<6><STEAM_0:0:1835451154><TERRORIST>" with "deagle"
+L 04/23/2020 - 22:32:25: "(^_^)TA(~_~)<7><STEAM_0:0:2029958108><CT>" say "=)))" (dead)
+L 04/23/2020 - 22:32:32: "(^_^)TA(~_~)<7><STEAM_0:0:2029958108><CT>" say_team "tha` chet ko bi lam` nhuc" (dead)
+L 04/23/2020 - 22:32:54: "Rama_MSE<1><STEAM_0:0:1477578223><CT>" killed "Ming<3><STEAM_0:0:787808286><TERRORIST>" with "deagle"
+L 04/23/2020 - 22:32:54: Team "CT" triggered "CTs_Win" (CT "8") (T "4")
+L 04/23/2020 - 22:32:54: World triggered "Round_End"
+L 04/23/2020 - 22:33:06: World triggered "Round_Start"
+L 04/23/2020 - 22:33:39: "Rama_MSE<1><STEAM_0:0:1477578223><CT>" killed "Mr.Donkey<6><STEAM_0:0:1835451154><TERRORIST>" with "deagle"
+L 04/23/2020 - 22:33:43: "Ming<3><STEAM_0:0:787808286><TERRORIST>" killed "(^_^)TA(~_~)<7><STEAM_0:0:2029958108><CT>" with "deagle"
+L 04/23/2020 - 22:33:48: "ThongCaTheGioi<5><STEAM_0:0:787808286><SPECTATOR>" joined team "CT"
+L 04/23/2020 - 22:34:16: "Rama_MSE<1><STEAM_0:0:1477578223><CT>" killed "Ming<3><STEAM_0:0:787808286><TERRORIST>" with "deagle"
+L 04/23/2020 - 22:34:16: Team "CT" triggered "CTs_Win" (CT "9") (T "4")
+L 04/23/2020 - 22:34:16: World triggered "Round_End"
+L 04/23/2020 - 22:34:28: World triggered "Round_Start"
+L 04/23/2020 - 22:34:41: "(^_^)TA(~_~)<7><STEAM_0:0:2029958108><CT>" killed "Mr.Donkey<6><STEAM_0:0:1835451154><TERRORIST>" with "p228"
+L 04/23/2020 - 22:35:01: "Ming<3><STEAM_0:0:787808286><TERRORIST>" killed "ThongCaTheGioi<5><STEAM_0:0:787808286><CT>" with "deagle"
+L 04/23/2020 - 22:35:43: "Rama_MSE<1><STEAM_0:0:1477578223><CT>" killed "Ming<3><STEAM_0:0:787808286><TERRORIST>" with "deagle"
+L 04/23/2020 - 22:35:43: Team "CT" triggered "CTs_Win" (CT "10") (T "4")
+L 04/23/2020 - 22:35:43: World triggered "Round_End"
+L 04/23/2020 - 22:35:55: World triggered "Round_Start"
+L 04/23/2020 - 22:36:18: "ThongCaTheGioi<5><STEAM_0:0:787808286><CT>" killed "Mr.Donkey<6><STEAM_0:0:1835451154><TERRORIST>" with "fiveseven"
+L 04/23/2020 - 22:36:44: "Rama_MSE<1><STEAM_0:0:1477578223><CT>" killed "Ming<3><STEAM_0:0:787808286><TERRORIST>" with "deagle"
+L 04/23/2020 - 22:36:44: Team "CT" triggered "CTs_Win" (CT "11") (T "4")
+L 04/23/2020 - 22:36:44: World triggered "Round_End"
+L 04/23/2020 - 22:36:56: World triggered "Round_Start"
+L 04/23/2020 - 22:37:07: "Mr.Donkey<6><STEAM_0:0:1835451154><TERRORIST>" killed "ThongCaTheGioi<5><STEAM_0:0:787808286><CT>" with "deagle"
+L 04/23/2020 - 22:37:10: "Rama_MSE<1><STEAM_0:0:1477578223><CT>" killed "Mr.Donkey<6><STEAM_0:0:1835451154><TERRORIST>" with "deagle"
+L 04/23/2020 - 22:37:14: "Rama_MSE<1><STEAM_0:0:1477578223><CT>" killed "Ming<3><STEAM_0:0:787808286><TERRORIST>" with "deagle"
+L 04/23/2020 - 22:37:14: Team "CT" triggered "CTs_Win" (CT "12") (T "4")
+L 04/23/2020 - 22:37:14: World triggered "Round_End"
+L 04/23/2020 - 22:37:26: World triggered "Round_Start"
+L 04/23/2020 - 22:37:45: "Mr.Donkey<6><STEAM_0:0:1835451154><TERRORIST>" killed "Rama_MSE<1><STEAM_0:0:1477578223><CT>" with "deagle"
+L 04/23/2020 - 22:38:06: "Ming<3><STEAM_0:0:787808286><TERRORIST>" killed "ThongCaTheGioi<5><STEAM_0:0:787808286><CT>" with "deagle"
+L 04/23/2020 - 22:38:10: "Ming<3><STEAM_0:0:787808286><TERRORIST>" killed "(^_^)TA(~_~)<7><STEAM_0:0:2029958108><CT>" with "deagle"
+L 04/23/2020 - 22:38:10: Team "TERRORIST" triggered "Terrorists_Win" (CT "12") (T "5")
+L 04/23/2020 - 22:38:10: World triggered "Round_End"
+L 04/23/2020 - 22:38:22: World triggered "Round_Start"
+L 04/23/2020 - 22:38:35: "Mr.Donkey<6><STEAM_0:0:1835451154><TERRORIST>" killed "(^_^)TA(~_~)<7><STEAM_0:0:2029958108><CT>" with "deagle"
+L 04/23/2020 - 22:38:36: "Rama_MSE<1><STEAM_0:0:1477578223><CT>" killed "Mr.Donkey<6><STEAM_0:0:1835451154><TERRORIST>" with "deagle"
+L 04/23/2020 - 22:39:04: "Ming<3><STEAM_0:0:787808286><TERRORIST>" killed "Rama_MSE<1><STEAM_0:0:1477578223><CT>" with "deagle"
+L 04/23/2020 - 22:39:14: "Ming<3><STEAM_0:0:787808286><TERRORIST>" killed "ThongCaTheGioi<5><STEAM_0:0:787808286><CT>" with "deagle"
+L 04/23/2020 - 22:39:14: Team "TERRORIST" triggered "Terrorists_Win" (CT "12") (T "6")
+L 04/23/2020 - 22:39:14: World triggered "Round_End"
+L 04/23/2020 - 22:39:26: World triggered "Round_Start"
+L 04/23/2020 - 22:40:09: "Mr.Donkey<6><STEAM_0:0:1835451154><TERRORIST>" killed "Rama_MSE<1><STEAM_0:0:1477578223><CT>" with "deagle"
+L 04/23/2020 - 22:40:11: "Ming<3><STEAM_0:0:787808286><TERRORIST>" killed "(^_^)TA(~_~)<7><STEAM_0:0:2029958108><CT>" with "deagle"
+L 04/23/2020 - 22:40:13: "Mr.Donkey<6><STEAM_0:0:1835451154><TERRORIST>" killed "ThongCaTheGioi<5><STEAM_0:0:787808286><CT>" with "deagle"
+L 04/23/2020 - 22:40:13: Team "TERRORIST" triggered "Terrorists_Win" (CT "12") (T "7")
+L 04/23/2020 - 22:40:13: World triggered "Round_End"
+L 04/23/2020 - 22:40:25: World triggered "Round_Start"
+L 04/23/2020 - 22:40:39: "Ming<3><STEAM_0:0:787808286><TERRORIST>" killed "(^_^)TA(~_~)<7><STEAM_0:0:2029958108><CT>" with "deagle"
+L 04/23/2020 - 22:40:43: "(^_^)TA(~_~)<7><STEAM_0:0:2029958108><CT>" say ":(" (dead)
+L 04/23/2020 - 22:40:46: "Mr.Donkey<6><STEAM_0:0:1835451154><TERRORIST>" killed "Rama_MSE<1><STEAM_0:0:1477578223><CT>" with "deagle"
+L 04/23/2020 - 22:40:48: "Ming<3><STEAM_0:0:787808286><TERRORIST>" killed "ThongCaTheGioi<5><STEAM_0:0:787808286><CT>" with "knife"
+L 04/23/2020 - 22:40:48: Team "TERRORIST" triggered "Terrorists_Win" (CT "12") (T "8")
+L 04/23/2020 - 22:40:48: World triggered "Round_End"
+L 04/23/2020 - 22:41:00: World triggered "Round_Start"
+L 04/23/2020 - 22:41:24: "(^_^)TA(~_~)<7><STEAM_0:0:2029958108><CT>" killed "Ming<3><STEAM_0:0:787808286><TERRORIST>" with "p228"
+L 04/23/2020 - 22:41:50: "Mr.Donkey<6><STEAM_0:0:1835451154><TERRORIST>" killed "Rama_MSE<1><STEAM_0:0:1477578223><CT>" with "deagle"
+L 04/23/2020 - 22:42:04: "(^_^)TA(~_~)<7><STEAM_0:0:2029958108><CT>" killed "Mr.Donkey<6><STEAM_0:0:1835451154><TERRORIST>" with "p228"
+L 04/23/2020 - 22:42:04: Team "CT" triggered "CTs_Win" (CT "13") (T "8")
+L 04/23/2020 - 22:42:04: World triggered "Round_End"
+L 04/23/2020 - 22:42:16: World triggered "Round_Start"
+L 04/23/2020 - 22:42:28: "Ming<3><STEAM_0:0:787808286><TERRORIST>" killed "Rama_MSE<1><STEAM_0:0:1477578223><CT>" with "deagle"
+L 04/23/2020 - 22:42:36: "Ming<3><STEAM_0:0:787808286><TERRORIST>" killed "ThongCaTheGioi<5><STEAM_0:0:787808286><CT>" with "deagle"
+L 04/23/2020 - 22:42:53: "(^_^)TA(~_~)<7><STEAM_0:0:2029958108><CT>" killed "Ming<3><STEAM_0:0:787808286><TERRORIST>" with "p228"
+L 04/23/2020 - 22:43:41: "(^_^)TA(~_~)<7><STEAM_0:0:2029958108><CT>" killed "Mr.Donkey<6><STEAM_0:0:1835451154><TERRORIST>" with "p228"
+L 04/23/2020 - 22:43:41: Team "CT" triggered "CTs_Win" (CT "14") (T "8")
+L 04/23/2020 - 22:43:41: World triggered "Round_End"
+L 04/23/2020 - 22:43:53: World triggered "Round_Start"
+L 04/23/2020 - 22:44:06: "Ming<3><STEAM_0:0:787808286><TERRORIST>" killed "Rama_MSE<1><STEAM_0:0:1477578223><CT>" with "deagle"
+L 04/23/2020 - 22:44:18: "Mr.Donkey<6><STEAM_0:0:1835451154><TERRORIST>" killed "ThongCaTheGioi<5><STEAM_0:0:787808286><CT>" with "deagle"
+L 04/23/2020 - 22:44:20: "Ming<3><STEAM_0:0:787808286><TERRORIST>" killed "(^_^)TA(~_~)<7><STEAM_0:0:2029958108><CT>" with "deagle"
+L 04/23/2020 - 22:44:20: Team "TERRORIST" triggered "Terrorists_Win" (CT "14") (T "9")
+L 04/23/2020 - 22:44:20: World triggered "Round_End"
+L 04/23/2020 - 22:44:32: World triggered "Round_Start"
+L 04/23/2020 - 22:44:54: "Mr.Donkey<6><STEAM_0:0:1835451154><TERRORIST>" killed "(^_^)TA(~_~)<7><STEAM_0:0:2029958108><CT>" with "deagle"
+L 04/23/2020 - 22:45:07: "Mr.Donkey<6><STEAM_0:0:1835451154><TERRORIST>" killed "Rama_MSE<1><STEAM_0:0:1477578223><CT>" with "deagle"
+L 04/23/2020 - 22:45:19: "Mr.Donkey<6><STEAM_0:0:1835451154><TERRORIST>" killed "ThongCaTheGioi<5><STEAM_0:0:787808286><CT>" with "deagle"
+L 04/23/2020 - 22:45:19: Team "TERRORIST" triggered "Terrorists_Win" (CT "14") (T "10")
+L 04/23/2020 - 22:45:19: World triggered "Round_End"
+L 04/23/2020 - 22:45:21: "(^_^)TA(~_~)<7><STEAM_0:0:2029958108><CT>" say "dao =))" (dead)
+L 04/23/2020 - 22:45:28: "Mr.Donkey<6><STEAM_0:0:1835451154><TERRORIST>" say "log on"
+L 04/23/2020 - 22:45:31: World triggered "Round_Start"
+L 04/23/2020 - 22:45:34: Log file closed

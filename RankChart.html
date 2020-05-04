@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<!-- saved from url=(0061)https://www.chartjs.org/samples/latest/charts/line/basic.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>VSA@NCTU CS Ranking Chart</title>
+	<script async="" src="./js/analytics.js.download"></script><script src="./js/Chart.min.js.download"></script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/0.71/jquery.csv-0.71.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/0.71/jquery.csv-0.71.min.js"></script>
+	<script src="./js/utils.js.download"></script>
+	<style>
+	canvas{
+		-moz-user-select: none;
+		-webkit-user-select: none;
+		-ms-user-select: none;
+	}
+
+	</style>
+<style type="text/css">/* Chart.js */
+@keyframes chartjs-render-animation{from{opacity:.99}to{opacity:1}}.chartjs-render-monitor{animation:chartjs-render-animation 1ms}.chartjs-size-monitor,.chartjs-size-monitor-expand,.chartjs-size-monitor-shrink{position:absolute;direction:ltr;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1}.chartjs-size-monitor-expand>div{position:absolute;width:1000000px;height:1000000px;left:0;top:0}.chartjs-size-monitor-shrink>div{position:absolute;width:200%;height:200%;left:0;top:0}
+
+
+
+</style></head>
+
+<body data-gr-c-s-loaded="true">
+	<div class="" style="width:99%;"><div class="chartjs-size-monitor "><div class="chartjs-size-monitor-expand"><div class=""></div></div><div class="chartjs-size-monitor-shrink"><div class=""></div></div></div>
+		<canvas id="canvas" style="display: block; width: 450px; height: 580px; " width="450" height="580" class="chartjs-render-monitor"></canvas>
+	</div>
+	<br>
+	<br>
+	<script>
+		
+
+		var userName = []; //["Ming", "BoiHetVaoDay", "Mr.Donkey", "ThongCaTheGioi","TA","HUNGLE", "Hung501", "Vu Vu", "Gank by Wife", "Eternity_HUY", "Nobita", 
+							//"rambo", "Rama_MSE","Nam Lai", "TRI", "CSC | Shinichi", "QUI", "Raymond"];
+		var userID = [];
+		var rankid = [];
+
+		var config = {
+			type: 'line',
+			data: {
+			},
+			options: {
+
+			layout: {
+			            padding: {
+			                left: 0,
+			                right: 0,
+			                top: 20,
+			                bottom: 0
+			            }
+			        },
+				legend: {
+		            display: true,
+		            position: 'top',
+		            labels: {
+		               fontColor: '#ffffff',
+		               usePointStyle: true,
+		            }
+		        },
+				responsive: true,
+				title: {
+					display: true,
+					text: 'VSA@NCTU CS Ranking Chart',
+					 fontColor: '#ffffff',
+					 position: 'bottom'
+				},
+				tooltips: {
+					mode: 'index',
+					intersect: false,
+				},
+				hover: {
+					mode: 'nearest',
+					intersect: true
+				},
+				scales: {
+					zeroLineColor: '#ffffff',
+					xAxes: [{
+						display: true,
+						scaleLabel: {
+							display: true,
+							labelString: 'Week',
+							ticks: {
+							fontColor: '#ffffff',
+				            beginAtZero: true,
+				            min : 0
+				          },
+				          offset: true
+						}
+					}],
+					yAxes: [{
+						 gridLines: {
+						 	borderDash: [5, 20],
+                			color: "#fafafa",
+                	    },
+						//display: false,	
+						fontColor: '#ffffff',
+
+						scaleLabel: {
+							display: true,
+							fontColor: '#ffffff',
+							labelString: 'Rank',
+							ticks: {
+								fontColor: 'red',
+			                    reverse: true,
+                            	start: 19
+			                }
+							  
+						}
+					}]
+				}
+			}
+		};
+		
+		window.onload = function() {
+			var ctx = document.getElementById('canvas').getContext('2d');
+			window.myLine = new Chart(ctx, config);
+		var currentUser = parseInt("<?php echo $rank; ?>")+1;
+		var nUser =19;
+		var fromUser = Math.max(0,currentUser-3);
+		var toUser = Math.min(20,fromUser+6);
+		
+		var data;
+		$.ajax({
+		  type: "GET",  
+		  url: "rank.csv",
+		  dataType: "text",       
+		  success: function(response)  
+		  {
+			data = $.csv.toArrays(response)
+			console.log(data);
+			// also init data here
+			var nUser = 19;
+			var nMatch = 7;
+			for (var i = 0; i < nUser ;i++) {
+				if ( parseInt(data[i][nMatch-1]) > fromUser && parseInt(data[i][nMatch-1]) < toUser) {
+					userName.push(data[i][2]);
+					userID.push(i);
+					console.log(data[i][2]);
+					console.log(data[i][nMatch-1])
+				}
+			}
+			
+			for (var i = 0; i<userID.length; i++)
+				{	
+				var colorName = colorNames[i % colorNames.length+1];
+				var nMatch =  data[0].length;
+				var boderValue = 0.7;
+
+				if (data[userID[i]][nMatch-1] == currentUser ) {
+					boderValue = 4;
+					colorName = "red";
+				}
+
+				var newColor = window.chartColors[colorName];
+				var newDataset = {
+				label: userName[i],
+				backgroundColor: newColor,
+				borderColor: newColor,
+				data: [],
+				fill: false,
+				borderWidth: boderValue
+				};
+				config.data.datasets.push(newDataset);
+				window.myLine.update();
+				
+			}
+
+			var nMatch =  data[0].length;
+			
+			var nUser = 19;
+			var idx = 0;
+			config.data.datasets.forEach(function(dataset) {
+				dataset.data.push(nUser+1-data[userID[idx]][4]);
+				idx++;
+				});
+
+			for (var i = 4; i <= nMatch; i++) {
+			config.data.labels.push(i-2);
+			idx = 0;
+			config.data.datasets.forEach(function(dataset) {
+				dataset.data.push(nUser+1-data[userID[idx]][i]);
+				idx++;
+				});
+					
+				window.myLine.update();
+			  	}  
+			 }
+		  
+		});
+
+		console.log(config.data.datasets)
+
+		};
+/*
+		document.getElementById('randomizeData').addEventListener('click', function() {
+			config.data.datasets.forEach(function(dataset) {
+				dataset.data = dataset.data.map(function() {
+					return getRandomInt(18);
+				});
+
+			});
+
+			window.myLine.update();
+		});
+*/
+		var colorNames = Object.keys(window.chartColors);
+	
+	function getRandomInt(max) {
+	  return Math.floor(Math.random() * Math.floor(max));
+	}
+
+	
+
+	</script>
+
+
+
+</body></html>

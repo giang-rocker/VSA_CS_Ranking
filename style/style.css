@@ -1,0 +1,397 @@
+body {
+  background-image: url(bg.jpg);
+  color: white;
+ 
+}
+
+
+a:link {
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  text-decoration: none;
+}
+
+.banner{
+	text-align: center;
+}
+
+
+.itemBlankCover{
+	
+}
+
+.borderDebug {
+		border: 1px solid red;
+}
+
+
+.itemBlankContent{
+
+	background-image: url("blankTag.png");
+	background-repeat: all ;
+	
+	height: 100px;
+	border: solid #b1d9e9 1px;
+	margin: 10px;
+ 	box-shadow: 10px 10px 5px black;
+ 	padding-top:5px;
+	}
+
+.divRankth{
+	font-family: 'Raleway',sans-serif;
+	font-size: 60px;
+	font-weight: 700;
+	text-transform: uppercase;
+	height: 100%;
+	text-align: center;
+	padding-top:5px;
+	
+}
+.divKDratio{
+	color: #ffffff;
+	font-family: 'Raleway',sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 72px; margin: 0 0 24px;
+	text-transform: uppercase;
+	text-align: center;
+ 	height: 100%;
+	padding-top:3px;
+}
+.divName{
+	color: #ffffff;
+	font-family: 'Raleway',sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	height: 100%;
+	padding-top:3px;
+}
+.divDetail{
+	color: #ffffff;
+	font-family: 'Raleway',sans-serif;
+	font-size: 15px;
+	font-weight: 700;
+	text-align: center;
+	
+	height: 100%;
+}
+.divEXP{
+	color: #ffffff;
+	font-family: 'Raleway',sans-serif;
+	font-size: 15px;
+	font-weight: 700;
+	text-align: center;
+	
+	height: 100%;
+	text-align: center;
+}
+
+.divNameText{
+	font-family: 'Raleway',sans-serif;
+	font-size: 25px;
+	font-weight: 700;
+}
+.divNameTextLarge{
+	font-family: 'Raleway',sans-serif;
+	font-size: 35px;
+	font-weight: 700;
+	text-align: center;
+
+}
+.divEXPText{
+	padding-top: 5px;
+	color: #2ade2a;
+	font-family: 'Raleway',sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	text-align: center;
+	
+	text-align: center;
+}
+.divRatioText{
+
+	color: #ffffff;
+	font-family: 'Raleway',sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	text-align: center;
+}
+.fontGold {
+color: #ffd355;
+}
+.fontSilver{
+	color: #5ac1f7;
+}
+.fontBrozen{
+	color: #f19218;
+}
+
+.backgroundYellow{
+	background-image: url("	blankyellow.png");
+	background-repeat: all ;
+
+}
+.backgroundGray{
+	background-image: url("	blankgray.png");
+	background-repeat: all ;
+
+}
+
+.fontNormal{
+	color: #e5e5e5;
+}
+.fontTitleField{
+	font-size: 15px;
+	color:  #5ac1f7;
+	margin-bottom: 3px;
+}
+.fontTitle{
+	color: #e5e5e5;
+	font-family: 'Raleway',sans-serif;
+	font-size: 20px;
+	font-weight: 200;	
+}
+.fontSize45{
+	font-weight: 400;
+font-size: 45px;
+}
+
+.fontSize35{
+	font-weight: 400;
+	font-size: 35px;
+}
+
+.fontSize30{
+	font-weight: 400;
+	font-size: 30px;
+}
+.fontSize25{
+font-size: 25px;
+}
+
+.fontSize20
+{
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.colorWhite{
+	color: #ffffff;http://localhosthttp://localhost/thu7.online/banner.png/thu7.online/banner.png
+}http://localhost/thu7.online/banner.png
+http://localhost/thu7.online/banner.pnghttp://localhost/thu7.online/banner.png
+.colorBlue{
+	color: #e5e5e5;
+}
+
+.fontSimple{	
+}
+.center{
+	text-align: center;
+}
+
+.right{
+	text-align: right;	
+}
+.left{
+	text-align: left;	
+}
+
+.paddingTopBottom5{
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+.paddingTop10{
+	padding-top:5px;
+}
+.paddingTop15{
+	padding-top:15px;
+}
+.paddingTop20{
+	padding-top:20px;
+}
+.paddingTop50{
+	padding-top:50px;
+}
+.paddingLeft10{
+	padding-left:10px;
+}
+.paddingLeft20{
+	padding-left:20px;
+}
+.paddingLeft25{
+	padding-left: 25px;
+}
+.weaponIcon{
+	height: 50px;
+}
+
+.table_row{
+	color: #ffffff;
+	font-family: 'Raleway',sans-serif;
+	font-size: 15px;
+	font-weight: 700;
+}
+/*	PROFILE CSS*/
+
+.profileContainer{
+	min-width: 500px;
+	background-image: url("blankTag.png");
+	background-repeat: all ;
+	margin: 10px;
+ 	box-shadow: 10px 10px 5px black;
+ 	padding: 20px;
+ 	}
+
+.border_blue{
+	background-image: url("blankblue.png");
+	background-repeat: all ;
+	height: 350px;
+	min-width: 300px;
+	border: solid #00b4ff 1px;
+	margin: 10px;
+ 	box-shadow: 10px 10px 5px black;
+ 	padding-top:5px;
+	}
+
+.stats_container{
+	background-image: url("blankblue.png");
+	background-repeat: all ;
+	height: 200px;
+	min-width: 400px;
+	border: solid #00b4ff 1px;
+	margin: 10px;
+ 	box-shadow: 10px 10px 5px black;
+ 	padding-top:5px;
+	}
+
+.gun_stats_container{
+	background-image: url("blankblue.png");
+	background-repeat: all ;
+	height: 130px;
+	min-width: 400px;
+	border: solid #00b4ff 1px;
+	margin: 10px;
+ 	box-shadow: 10px 10px 5px black;
+ 	padding-top:5px;
+	}
+
+.profileIMG{
+	padding-left:30px;
+	width: 200px;
+	}
+
+.gunIcon{
+	max-width: 200px;
+	max-height: 40px;
+	margin:10px;
+	}
+
+.gunIconSmall{
+	max-width: 130px;
+	max-height: 30px;
+	margin:10px;
+	margin-right:0px;
+	}
+.xIcon{
+	max-height: 20px;
+	}
+
+.topGun {
+		border-bottom: 1px solid #f0f0f0;
+		font-size: 15px;
+		color: white;
+	}
+
+.circleBorder {
+
+		width: 150px;
+		height: 150px;
+		margin: 2em auto;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center center;
+		-webkit-border-radius: 99em;
+		-moz-border-radius: 99em;
+		border-radius: 99em;
+		border: 3px solid #00ff60;
+		box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);  
+		margin: 10px;
+		margin-left: 30px;
+		}
+
+.circleBorderSmall {
+		width: 80px;
+		height: 80px;
+		margin: 2em auto;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center center;
+		-webkit-border-radius: 99em;
+		-moz-border-radius: 99em;
+		border-radius: 99em;
+		border: 2px solid #00b4ff;
+		box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);  
+		margin: 1px;
+		margin-left: 80px;
+		margin-bottom: 7px;
+	}
+
+.mostUsedGun {
+		max-width:250px;
+		-webkit-transform: scaleX(-1);
+  		transform: scaleX(-1);
+	}
+
+.favoriteWeapon{
+	background-image: url("blankblue.png");
+	background-repeat: all ;
+	height: 520px;
+	min-width: 300px;
+	border: solid #00b4ff 1px;
+	margin: 10px;
+ 	box-shadow: 10px 10px 5px black;
+ 	padding-top:5px;
+	}
+
+.awardContainer{
+	background-image: url("blankblue.png");
+	background-repeat: all ;
+	width: 100%;
+	border: solid #00b4ff 1px;
+	margin: 10px;
+ 	box-shadow: 10px 10px 5px black;
+ 	padding-top:5px;
+ 	margin-right:100px;
+	}
+
+
+.rankChartSmall{
+	background-image: url("blankblue.png");
+	background-repeat: all ;
+	height: 520px;
+	width: 400px;
+	border: solid #00b4ff 1px;
+	margin: 10px;
+ 	box-shadow: 10px 10px 5px black;
+ 	color:#00b4ff;
+ 	padding-left:100px;
+ 	}
+
+.padding30 {
+	padding:30px;
+
+}
